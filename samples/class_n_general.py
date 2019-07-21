@@ -20,7 +20,6 @@ class Color(enum.Enum):
 
 # 추상 클래스
 class Model(metaclass=ABCMeta):
-
     def __init__(self):
         print("Model __init__")
 

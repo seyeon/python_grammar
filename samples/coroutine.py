@@ -4,7 +4,7 @@ import random
 import datetime
 
 
-@asyncio.coroutine
+@asyncio.coroutines
 def display_date(num, loop):
     end_time = loop.time() + 50.0
     while True:
