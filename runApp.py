@@ -120,9 +120,12 @@ if __name__ == '__main__':
     # class_n_general.clear_rect(rectangle)
 
     FUL_NAME = "Thread begin"
-    run_thread()
+    print(FUL_NAME)
+
+    # run_thread()
 
     FUL_NAME = "Thread end"
+    print(FUL_NAME)
 
     # co = test_coroutine(1)
     # co.send(1)
